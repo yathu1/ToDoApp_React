@@ -8,7 +8,7 @@ const Content = ({items,handleCheck,handleDelete}) => {
    
 
   return (
-   <main>
+   <>
     {(items.length)?(
       <ItemsList
         items={items}
@@ -17,7 +17,7 @@ const Content = ({items,handleCheck,handleDelete}) => {
       />
     ): (<p style={{marginTop:'auto',marginBottom:'auto'}}>No list availabe</p>)}
    
-    </main> 
+    </> 
   )
 }
 
